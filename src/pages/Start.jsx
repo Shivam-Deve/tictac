@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
-import { useHistory } from 'react-router-dom'
+// import { useHistory } from 'react-router-dom'
 import styled from 'styled-components'
 import Button from '../components/Button'
 import Input from '../components/Input'
 import colors from '../utils/colors'
 import { useBoardContext } from '../context/board_context'
 function Login() {
-    const history = useHistory();
+    // const history = useHistory();
     const [email, setEmail] = useState();
     const { startGame } = useBoardContext();
     const handleStart = () => {
