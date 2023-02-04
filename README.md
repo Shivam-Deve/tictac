@@ -18,6 +18,9 @@ admin:{
 
 ## One default game is available
 
+please run on local machine as vercel is not working well with socket.io
+Also use default users provided above
+
 
 ## How to run project
 
