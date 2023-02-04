@@ -1,13 +1,10 @@
 import Login from './pages/Login'
 import Landing from './pages/Landing'
-import Button from './components/Button'
-import Input from './components/Input'
 import Register from './pages/Register'
 import styled from 'styled-components'
 import Welcome from './pages/Welcome'
 import Start from './pages/Start'
 import Board from './pages/Board'
-import Card from './components/Card'
 
 import PrivateRoute from './pages/PrivateRoute'
 

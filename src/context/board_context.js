@@ -1,7 +1,6 @@
 import React, { useContext, createContext } from 'react'
 import { useEffect } from 'react'
 import { useState } from 'react'
-import { useHistory } from 'react-router-dom'
 import { io } from 'socket.io-client'
 import axios from '../axios'
 import { useUserContext } from './user_context'
@@ -34,7 +33,7 @@ export const BoardProvider = ({ children }) => {
     if(colSum===3 || colSum===-3) return player
 
     // check dia
-    if (r == c) {
+    if (r === c) {
       const dia = matrix[0][0] + matrix[1][1] + matrix[2][2];
       if(dia===3 || dia===-3) return player
     }
