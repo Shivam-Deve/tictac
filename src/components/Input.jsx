@@ -14,7 +14,7 @@ const Wrapper = styled.button`
     flex-direction: column;
     align-items: start;
     background-color: white;
-    width: 80%;
+    width: 90%;
     margin: 20px;
     border: none;
     font-weight: 600;

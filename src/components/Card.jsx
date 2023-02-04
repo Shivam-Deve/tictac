@@ -23,8 +23,8 @@ function Card({ name, id }) {
 }
 
 const Wrapper = styled.div`
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 80%;
     margin: 20px;
     border: none;
     display: flex;

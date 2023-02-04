@@ -46,7 +46,7 @@ export const BoardProvider = ({ children }) => {
   }
 
   const connect = () => {
-    setSocket(io('https://api-tic-tac.vercel.app/'))
+    setSocket(io('https://api-pwjdft6eo-shivam-deve.vercel.app/'))
   }
 
   const startGame = async emailId => {

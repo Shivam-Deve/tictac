@@ -42,6 +42,10 @@ function App () {
   )
 }
 
-const Wrapper = styled.div`padding: 10px;`
+const Wrapper = styled.div`
+padding: 10px;
+height: 100vh;
+width: 100vw;
+`
 
 export default App
